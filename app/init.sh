@@ -13,8 +13,6 @@ while true; do
          composer install
 
          cd ../
-         rm -rf html
-
          chmod -R 0777 web
          break;;
         [Nn]* ) exit;;
